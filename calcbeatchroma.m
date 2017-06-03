@@ -148,10 +148,11 @@ for songn = 1:nfiles
             [d,sr] = audioread(ifname); %%%%%%%%%%%%%% !!!!!!!!!!!
           else
             [d,sr]=audioread(ifname);
-            if size(d,2) == 2
+          end
+          
+          if size(d,2) == 2
               % collapse stereo data to mono
               d = d(:,1) + d(:,2);
-            end
           end
 
           %disp(['sr = ',num2str(sr)]);
