@@ -1,0 +1,623 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"DOU",
+				"DOUBLE_MINUS"
+			],
+			[
+				"do",
+				"do\tDo While Loop"
+			],
+			[
+				"sim",
+				"simple_statement"
+			],
+			[
+				"for_",
+				"for_stat"
+			],
+			[
+				"swit",
+				"switch_stat"
+			],
+			[
+				"if",
+				"if_else_stat"
+			],
+			[
+				"CON",
+				"CONTINUE"
+			],
+			[
+				"expr",
+				"expression"
+			],
+			[
+				"loca",
+				"local_scope"
+			],
+			[
+				"loc",
+				"local_scope"
+			],
+			[
+				"con",
+				"content_list"
+			],
+			[
+				"line",
+				"line_buff"
+			],
+			[
+				"lin",
+				"line_buff"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 1273 files for \"Writing\"\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\README.txt:\n   41  will perform chord recognition on each of the audio files listed in \n   42  testFileList.txt, using the model read from scratchDir (if pretrained=0) or \n   43: the code directory (if pretrained=1), and writing the results into \n   44  resultsDir/<filename.wav>.txt .\n   45  \n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm_classify:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm_learn:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svmhmmwrite.m:\n   61    % transpose for increased efficiency when working with sparse matrices\n   62    X{qid} = X{qid}';\n   63:   fprintf('Writing ');\n   64    for i = 1:N,\n   65      Xi = X{qid}(:,i);\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_audioread.m:\n   38  %   opts:\n   39  %     Struct with additional information as returned by WAVREAD (not\n   40: %     available with Octave at the time of writing).\n   41  %\n   42  % EXAMPLE\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_extractfeature.m:\n  190  \n  191  function [feature, featureextractiontime] = internalfunctionextractfeatures(distancemeasure, wav)\n  192: % This is a separate function to minimize the risk of overwriting variables\n  193      featurecmd = distancemeasure.computefeature;\n  194      options = distancemeasure.options;\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_mf2t.GLNX86:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_mf2t.GLNXA64:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_mf2t.MAC:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_mf2t.SOL2:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_mfccvb.m:\n  159  %\n  160  %   You can obtain a copy of the GNU General Public License from\n  161: %   ftp://prep.ai.mit.edu/pub/gnu/COPYING-2.0 or by writing to\n  162  %   Free Software Foundation, Inc.,675 Mass Ave, Cambridge, MA 02139, USA.\n  163  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n  ...\n  237  %\n  238  %   You can obtain a copy of the GNU General Public License from\n  239: %   ftp://prep.ai.mit.edu/pub/gnu/COPYING-2.0 or by writing to\n  240  %   Free Software Foundation, Inc.,675 Mass Ave, Cambridge, MA 02139, USA.\n  241  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n  ...\n  364  %\n  365  %   You can obtain a copy of the GNU General Public License from\n  366: %   ftp://prep.ai.mit.edu/pub/gnu/COPYING-2.0 or by writing to\n  367  %   Free Software Foundation, Inc.,675 Mass Ave, Cambridge, MA 02139, USA.\n  368  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n  ...\n  499  %\n  500  %   You can obtain a copy of the GNU General Public License from\n  501: %   ftp://prep.ai.mit.edu/pub/gnu/COPYING-2.0 or by writing to\n  502  %   Free Software Foundation, Inc.,675 Mass Ave, Cambridge, MA 02139, USA.\n  503  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n  ...\n  546  %\n  547  %   You can obtain a copy of the GNU General Public License from\n  548: %   ftp://prep.ai.mit.edu/pub/gnu/COPYING-2.0 or by writing to\n  549  %   Free Software Foundation, Inc.,675 Mass Ave, Cambridge, MA 02139, USA.\n  550  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_t2mf.GLNX86:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_t2mf.GLNXA64:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_t2mf.MAC:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\isptoolbox\\isp_t2mf.SOL2:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm\\LICENSE.txt:\n   40  BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n   41  FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT\n   42: WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER\n   43  PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND,\n   44  EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE\n   ..\n   48  THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n   49  \n   50: IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n   51  WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n   52  REDISTRIBUTE THE PROGRAM, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm\\svm_struct_api.c:\n  775  \n  776    if(verbosity>=1) {\n  777:     printf(\"Writing model file...\"); fflush(stdout);\n  778    }\n  779    if ((modelfl = fopen (file, \"w\")) == NULL)\n  ...\n  819  \tfprintf(modelfl,\"#\\n\");\n  820      /* NOTE: this could be made more efficient by summing the\n  821:        alpha's of identical vectors before writing them to the\n  822         file. */\n  823      }\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm\\svm_light\\LICENSE.txt:\n   41  BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n   42  FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT\n   43: WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER\n   44  PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND,\n   45  EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE\n   ..\n   49  THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n   50  \n   51: IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n   52  WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n   53  REDISTRIBUTE THE PROGRAM, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm\\svm_light\\svm_common.c:\n 1228   \n 1229    if(verbosity>=1) {\n 1230:     printf(\"Writing model file...\"); fflush(stdout);\n 1231    }\n 1232  \n ....\n 1281  \tfprintf(modelfl,\"#\\n\");\n 1282      /* NOTE: this could be made more efficient by summing the\n 1283:        alpha's of identical vectors before writing them to the\n 1284         file. */\n 1285      }\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm\\svm_light\\svm_learn.c:\n 4163  \n 4164    if(verbosity>=1) {\n 4165:     printf(\"Writing prediction file...\"); fflush(stdout);\n 4166    }\n 4167    if ((predfl = fopen (predfile, \"w\")) == NULL)\n ....\n 4202  \n 4203    if(verbosity>=1) {\n 4204:     printf(\"Writing alpha file...\"); fflush(stdout);\n 4205    }\n 4206    if ((alphafl = fopen (alphafile, \"w\")) == NULL)\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm\\svm_struct\\svm_struct_main.c:\n   91       have to make a deep copy of 'model'. */\n   92    if(struct_verbosity>=1) {\n   93:     printf(\"Writing learned model...\");fflush(stdout);\n   94    }\n   95    write_struct_model(modelfile,&structmodel,&struct_parm);\n\n33 matches across 21 files\n\n\nSearching 1273 files for \"svmhmmwrite\"\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\doChordID_svm.asv:\n   67    % create test data\n   68    [X_test,B] = loadftrs_mirex_svm(tstf(ti),use100,nflag,pflag,qflag,train12fold); \n   69:   svmhmmwrite(test_name,X_test);\n   70    clear X_test;\n   71    \n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\doChordID_svm.m:\n   67    % create test data\n   68    [X_test,B] = loadftrs_mirex_svm(tstf(ti),use100,nflag,pflag,qflag,train12fold); \n   69:   svmhmmwrite(test_name,X_test);\n   70    clear X_test;\n   71    \n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\extractFeaturesAndTrain_svm.m:\n   58  \n   59  % load training data\n   60: clear X_train Y_train; % X_train will contain the training points to feed to svmhmmwrite for svmhmm, Y_train will have the labels\n   61  \n   62  X_train = loadftrs_mirex_svm(trnf,use100,nflag,pflag,qflag,train12fold,maxframes);\n   ..\n   77  end\n   78  \n   79: svmhmmwrite(train_name,X_train,Y_train);\n   80  \n   81  clear X_train Y_train; %free up memory\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svmhmmwrite.m:\n    1: function svmhmmwrite(fname, X, Y)\n    2  % SVMLWRITE - Write matrix into data file for SVM light\n    3  % \n\n5 matches across 4 files\n\n\nSearching 1273 files for \".pred\"\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\doChordID_svm.asv:\n   47  test=[name '_test.dat'];\n   48  test_name=fullfile(scratchDir,test);\n   49: pname=[name '.pred'];\n   50  pred_name=fullfile(scratchDir,pname);\n   51  %string to test\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\doChordID_svm.m:\n   47  test=[name '_test.dat'];\n   48  test_name=fullfile(scratchDir,test);\n   49: pname=[name '.pred'];\n   50  pred_name=fullfile(scratchDir,pname);\n   51  %string to test\n\n2 matches across 2 files\n\n\nSearching 1274 files for \"svm_hmm_classify\"\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\doChordID_svm.asv:\n   50  pred_name=fullfile(scratchDir,pname);\n   51  %string to test\n   52: str_test =  [SVMDir 'svm_hmm_classify ' test_name ' ' model_name ' ' pred_name];\n   53  \n   54  % Calculate features for test item\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\doChordID_svm.m:\n   50  pred_name=fullfile(scratchDir,pname);\n   51  %string to test\n   52: str_test =  [SVMDir 'svm_hmm_classify ' test_name ' ' model_name ' ' pred_name];\n   53  \n   54  % Calculate features for test item\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\README.txt:\n   13  \n   14  To run on other systems, you must \"make\" these programs from the source \n   15: in the svm_hmm/ directory, then copy svm_hmm_learn and svm_hmm_classify \n   16  into the main directory.\n   17  \n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm_classify:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm_learn:\n    <binary>\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm\\Makefile:\n   13  #LDFLAGS = $(SFLAGS) -pg -lm -Wall \n   14  \n   15: all: svm_hmm_learn svm_hmm_classify\n   16  \n   17  .PHONY: clean\n   ..\n   43  #-------------------------#\n   44  \n   45: svm_hmm_classify: svm_light_hideo_noexe svm_struct_noexe svm_struct_api.o svm_struct/svm_struct_classify.o svm_struct/svm_struct_common.o svm_struct/svm_struct_main.o \n   46: \t$(LD) $(LDFLAGS) svm_struct_api.o svm_struct/svm_struct_classify.o svm_light/svm_common.o svm_struct/svm_struct_common.o -o svm_hmm_classify $(LIBS)\n   47  \n   48  svm_hmm_learn: svm_light_hideo_noexe svm_struct_noexe svm_struct_api.o svm_struct_learn_custom.o svm_struct/svm_struct_learn.o svm_struct/svm_struct_common.o svm_struct/svm_struct_main.o\n\nC:\\Users\\MT\\Downloads\\labrosachordrecog-2010\\svm_hmm\\svm_struct_api.c:\n  857    fscanf(modelfl,\"SVM-HMM Version %s\\n\",version_buffer);\n  858    if(strcmp(version_buffer,INST_VERSION)) {\n  859:     perror (\"Version of model-file does not match version of svm_hmm_classify!\"); \n  860      exit (1); \n  861    }\n\n9 matches across 7 files\n",
+			"settings":
+			{
+				"buffer_size": 10772,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "doChordID_svm.m",
+			"settings":
+			{
+				"buffer_size": 3132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "svmhmmwrite.m",
+			"settings":
+			{
+				"buffer_size": 2339,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Graph All"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/MT/Downloads/labrosachordrecog-2010"
+	],
+	"file_history":
+	[
+		"/C/Users/MT/Downloads/dpwechordrecog-20091002/allmp3s.txt",
+		"/C/Users/MT/Downloads/dpwechordrecog-20091002/in.txt",
+		"/C/Users/MT/Downloads/dpwechordrecog-20091002/list.txt",
+		"/C/Users/MT/Downloads/labrosachordrecog-2010/beatles/lists/A_Hard_Day_s_Night.txt",
+		"/C/Users/MT/Downloads/labrosachordrecog-2010/beatles/lists/Please_Please_Me.txt",
+		"/C/Users/MT/Downloads/dpwechordrecog-20091002/result/01-A_Hard_Day_s_Night.mp3.txt",
+		"/C/Users/MT/Downloads/labrosachordrecog-2010/beatles/lists/cut1.txt",
+		"/C/Users/MT/Downloads/labrosachordrecog-2010/beatles/lists/cut2.txt",
+		"/C/Users/MT/Downloads/labrosachordrecog-2010/beatles/lists/cut3.txt",
+		"/C/Users/MT/Downloads/labrosachordrecog-2010/beatles/lists/Help_.txt",
+		"/C/Users/MT/Downloads/labrosachordrecog-2010/beatles/lists/ncut2.txt",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/1/103062120@140.114.88.219/my.cs",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/0/103062120@140.114.88.219/hw2.y",
+		"/C/Users/MT/Downloads/labrosachordrecog-2010/README.txt",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/2/103062120@140.114.88.219/my.cs",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/1/103062120@140.114.88.219/hw2.y",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/0/103062120@140.114.88.219/hw2.l",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/0/103062120@140.114.88.219/137testcase.cs",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/1/103062120@140.114.88.219/hw2.l",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/2/103062120@140.114.88.219/hw2.y",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/3/103062120@140.114.88.219/137testcase.cs",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/2/103062120@140.114.88.219/test.cs",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/makefile",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/16/103062120@140.114.88.219/makefile",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/23/103062120@140.114.88.219/137testcase.cs",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/19/103062120@140.114.88.219/test.cs",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/24/103062120@140.114.88.219/y.output",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/4/103062120@140.114.88.219/hw2.y",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/3/103062120@140.114.88.219/hw2.l",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/22/103062120@140.114.88.219/y.output",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/20/103062120@140.114.88.219/y.output",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/reference_hw2/tesetcase1/test.cs",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/reference_hw2/tesetcase1/testcase1_err.cs",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/reference_hw2/tesetcase1/testcase1.cs",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/18/103062120@140.114.88.219/y.output",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/17/103062120@140.114.88.219/y.output",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/9/103062120@140.114.88.219/y.output",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/reference_hw2/hw2.y",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/reference_hw2/hw2.l",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/15/103062120@140.114.88.219/scanner.l",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/14/103062120@140.114.88.219/y.tab.h",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/13/103062120@140.114.88.219/makefile",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/12/103062120@140.114.88.219/makefile",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/10/103062120@140.114.88.219/makefile",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/11/103062120@140.114.88.219/makefile",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/1/103062120@140.114.88.219/makefile",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/8/103062120@140.114.88.219/y.output",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/7/103062120@140.114.88.219/y.output",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/6/103062120@140.114.88.219/y.output",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/5/103062120@140.114.88.219/y.output",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/0/103062120@140.114.88.219/scanner.l",
+		"/C/Users/MT/AppData/Local/Temp/Mxt76/RemoteFiles/2/103062120@140.114.88.219/parser.y",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/reference_hw2/define.h",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/reference_hw2/SymbolTable.h",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/hw2/scanner.l",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/autofly/PID.txt",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/autofly/FlashCtrl.c",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/autofly/controller.c",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/autofly/pid.c",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/autofly/pid.h",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/autofly/stabilizer.c",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/AHRSLib/include/AHRSLib.h",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/Library/Device/Nuvoton/M451Series/Include/M451Series.h",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/Library/Device/Nuvoton/M451Series/Include/system_M451Series.h",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/autofly/retarget.c",
+		"/C/Users/MT/Desktop/專題/M451 Series BSP CMSIS V3.01.001/SampleCode/StdDriver/UART_TxRxFunction/main.c",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/NvtFly/FlyController/autofly/FUSIONSDK.c",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/Library/StdDriver/inc/uart.h",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/Library/StdDriver/src/uart.c",
+		"/D/ASUS-D/NTHU/各科/大三/編譯器設計/HW1/scanner.l",
+		"/C/Users/MT/Desktop/專題/M451 Series BSP CMSIS V3.01.001/SampleCode/StdDriver/I2C_Master/main.c",
+		"/C/Users/MT/Desktop/專題/M451 Series BSP CMSIS V3.01.001/SampleCode/StdDriver/UART_AutoBaudRate_Master/main.c",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/Library/StdDriver/inc/i2c.h",
+		"/C/Users/MT/Downloads/en.STSW-IMG005/VL53L0X_1.0.2/Api/core/src/vl53l0x_api.c",
+		"/C/Users/MT/Downloads/en.STSW-IMG005/VL53L0X_1.0.2/ApiExample/examples/src/vl53l0x_ContinuousRanging_Example.c",
+		"/C/Users/MT/Downloads/en.STSW-IMG005/VL53L0X_1.0.2/ApiExample/examples/src/vl53l0x_SingleRanging_Example.c",
+		"/C/Users/MT/Desktop/專題/M451BSP_V1.421/M451BSP_V1.421/Library/StdDriver/inc/spi.h"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"svm_hmm_classify",
+			".pred",
+			"svmhmmwrite",
+			"Writing",
+			"/",
+			"/homes/dpwe/projects/chords08/beatles/",
+			"/homes/dpwe/projects/chords08/beatles",
+			"/homes/dpwe/projects/chords08/beatles/",
+			"A_Hard_Day_s_Night",
+			"C:\\Users\\MT\\Downloads\\dpwechordrecog-20091002\\mp3s-32k\\",
+			"\\A_Hard_Day_s_Night",
+			"/",
+			"mp3",
+			"function",
+			"print_error",
+			"func_invoc",
+			"13",
+			"12",
+			"return_type",
+			"func_definition",
+			"UNARY",
+			"'<'",
+			"ARITHCOMPARE",
+			"'+'",
+			"'/'",
+			"IDENTIFIER",
+			"var",
+			"stmts",
+			"xdecls",
+			"parmlist",
+			"'['",
+			"[",
+			"notype_declarator",
+			"DEBUG",
+			"pidInit",
+			"UART0_IRQHandler",
+			"UART_IS_RX_READY",
+			"Serial",
+			"VL53L0X_ERROR_NONE",
+			"I2C",
+			"gpio",
+			"Dac",
+			"D",
+			"dac",
+			"/*============================================================================*",
+			"DAC"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\",
+			"",
+			"mp3s-32k\\A_Hard_Day_s_Night",
+			"",
+			"C:\\Users\\MT\\Downloads\\dpwechordrecog-20091002\\mp3s-32k\\A_Hard_Day_s_Night",
+			"\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10772,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										302,
+										309
+									],
+									[
+										712,
+										719
+									],
+									[
+										992,
+										999
+									],
+									[
+										1285,
+										1292
+									],
+									[
+										1960,
+										1967
+									],
+									[
+										2288,
+										2295
+									],
+									[
+										2616,
+										2623
+									],
+									[
+										2944,
+										2951
+									],
+									[
+										3272,
+										3279
+									],
+									[
+										4047,
+										4054
+									],
+									[
+										4383,
+										4390
+									],
+									[
+										4670,
+										4677
+									],
+									[
+										4931,
+										4938
+									],
+									[
+										5246,
+										5253
+									],
+									[
+										5582,
+										5589
+									],
+									[
+										5876,
+										5883
+									],
+									[
+										6093,
+										6100
+									],
+									[
+										6281,
+										6288
+									],
+									[
+										6454,
+										6461
+									],
+									[
+										6753,
+										6760
+									],
+									[
+										7134,
+										7145
+									],
+									[
+										7388,
+										7399
+									],
+									[
+										7649,
+										7660
+									],
+									[
+										7832,
+										7843
+									],
+									[
+										8004,
+										8015
+									],
+									[
+										8324,
+										8329
+									],
+									[
+										8560,
+										8565
+									],
+									[
+										8870,
+										8886
+									],
+									[
+										9139,
+										9155
+									],
+									[
+										9457,
+										9473
+									],
+									[
+										9807,
+										9823
+									],
+									[
+										9909,
+										9925
+									],
+									[
+										10209,
+										10225
+									],
+									[
+										10691,
+										10707
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								9087,
+								9110
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 4,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "doChordID_svm.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1909,
+								1901
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Objective-C/Objective-C.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 496.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "svmhmmwrite.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 760.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chordrecog.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
