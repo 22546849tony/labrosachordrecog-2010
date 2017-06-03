@@ -13,7 +13,6 @@ Counting Stars - OneRepublic.mp3
 Demons - Imagine Dragons.mp3
 Eenie Meenie - Sean Kingston And Justin Bieber.mp3
 Eminem - Love The Way You Lie ft. Rihanna.mp3
-filename.bat
 Flo Rida - Whistle [Official Video].mp3
 I'm Yours - Jason Mraz.mp3
 It's Time - Imagine Dragons.mp3
@@ -23,7 +22,6 @@ Jessie J - Price Tag ft. B.o.B..mp3
 John Denver - Take Me Home, Country Roads.mp3
 Leave Out All The Rest (Album Version) - Linkin Park.mp3
 Lenka - The Show (New Version).mp3
-list.txt
 Maroon 5 - Love Somebody.mp3
 Maroon 5 - She Will Be Loved.mp3
 Michael Jackson - Man In The Mirror.mp3

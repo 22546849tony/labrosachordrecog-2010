@@ -158,7 +158,7 @@ for songn = 1:nfiles
           %disp(['sr = ',num2str(sr)]);
           
           % Get the beats for this tempo
-          bts = beat2(d,sr,[tmean tsd],400,0);
+          bts = beat2(d,sr,[tmean tsd],400,1);
 
           havewav = 1;
         end
