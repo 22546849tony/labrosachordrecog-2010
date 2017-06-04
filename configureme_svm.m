@@ -4,7 +4,7 @@
 %
 % 2010-07-13 Dan Ellis dpwe@ee.columbia.edu
 
-pretrained = 1;  % use included model files
+pretrained = 0;  % use included model files
 model = 25;      % model 15 also included 
 
 ruleset = 0;  % how to treat dim2 etc.
