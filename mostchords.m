@@ -16,7 +16,7 @@ function max_chord=mostchords(chords)
             end
             [~,len]=size(chords);
         end
-        if num>max_num
+        if num>max_num | strcmp(max_chord,'N')==1
             max_num=num;
             max_chord=sample;
         end

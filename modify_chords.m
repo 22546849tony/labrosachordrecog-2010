@@ -4,8 +4,8 @@
  musicDir = 'scratch/testpool';
  resultsDir = 'results';
  targetDir = 'newResults';
- if ~fexist(fullname)
-    mkdir(targetDir);
+ if ~fexist(targetDir)
+    mkdir(targetDir);+
  end
  list=dir('results/*.txt');
  for i = 1:length(list)
@@ -20,7 +20,7 @@
         music = load(fullname);
         bpm = music.bpm;
      else
-         disp(['file: ',ofname,'not exist - skipping']);
+         disp(['file: ',ofname,'   not exist - skipping']);
          continue;
      end
      segmentCut = length(chordtable) - length(newResult);

@@ -24,44 +24,45 @@ section_duration = beat_duration * bps;
 sections={};
 cur_section=1;
 cur_chord_num=1;
-for line=1:len
-   chord_in_section={};
-   chord_duration = section_duration/cps;
+disp(['beat_duration=',num2str(beat_duration),'   section_duration=',num2str(section_duration)]);
+line=1;
+while line<len
    
-   sec_start_time = section_duration * (cur_section-1) ;
-   sec_end_time = section_duration * (cur_section);
-   chord_start_time = chord_table{line,1};
-   chord_end_time = chord_table{line,2};
-   chord = chord_table{line,3};
-   while chord_end_time>sec_start_time
-       chord_in_section=[chord_in_section,chord];
+   chord_duration = section_duration/cps;
+   for cur_chord_num=1:cps
+       chord_in_section={};
+       sec_start_time = section_duration * (cur_section-1) + (cur_chord_num-1)*chord_duration ;
+       sec_end_time = section_duration * (cur_section-1) + (cur_chord_num)*chord_duration ;
        chord_start_time = chord_table{line,1};
        chord_end_time = chord_table{line,2};
        chord = chord_table{line,3};
-       if chord_start_time>sec_end_time
-           break;
+       while chord_end_time>=sec_start_time
+           chord_in_section=[chord_in_section,chord];
+           if chord_start_time>sec_end_time
+               break;
+           end
+           line=line+1;
+           chord_start_time = chord_table{line,1};
+           chord_end_time = chord_table{line,2};
+           chord = chord_table{line,3};
+           
        end
-       line=line+1;
+       chord=mostchords(chord_in_section);
+       disp(['start_time:',num2str(sec_start_time),'  end_time:',num2str(sec_end_time),' ,chord:',chord]);
+       divide=4/cps;
+       for i=1:divide
+           sections{cur_section,(cur_chord_num-1)*divide+i}=chord;
+       end
    end
+%    if cps==1
+%       chord=mostchords(chord_in_section);
+%       sections{cur_section,1}=chord;
+%       sections{cur_section,2}=chord;
+%       sections{cur_section,3}=chord;
+%       sections{cur_section,4}=chord;
+%    end
    
-   if cps==1
-      chord=mostchords(chord_in_section);
-      sections{cur_section,1}=chord;
-      sections{cur_section,2}=chord;
-      sections{cur_section,3}=chord;
-      sections{cur_section,4}=chord;
-   end
-   
-   if cps==2
-      
-      chord=mostchords(chord_in_section);
-      sections{cur_section,1}=chord;
-      sections{cur_section,2}=chord;
-      sections{cur_section,3}=chord;
-      sections{cur_section,4}=chord;
-   end
-   
-   cur_chord_num=mod(cur_chord_num+1,cps);
+%cur_chord_num=mod(cur_chord_num+1,cps);
    cur_section=cur_section+1;
 end
 
