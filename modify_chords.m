@@ -1,17 +1,38 @@
 %  system('results/filename.bat')
 
- list=dir('results/*.txt');
  cut_duration = 0.3;
- 
- resultsDir = 'results/';
- mkdir('newResults');
+ musicDir = 'scratch/testpool';
+ resultsDir = 'results';
+ targetDir = 'newResults';
+ if ~fexist(fullname)
+    mkdir(targetDir);
+ end
+ list=dir('results/*.txt');
  for i = 1:length(list)
-     A = readChordtxt([resultsDir,list(i).name]);
-     newResult = cut_short_chord(A, cut_duration);
-     segmentCut = length(A) - length(newResult);
-     disp(['Cut ',num2str(segmentCut),' segments in ',resultsDir,list(i).name]);
+     filename=list(i).name;
+     chordtable = readChordtxt([resultsDir,'/',filename]);
      
-     writeChordtxt(newResult,['newResults/',list(i).name]);
+     %% cut short time chord
+     
+     newResult = cut_short_chord(chordtable, cut_duration);
+     fullname = [musicDir , '/' ,strrep(filename ,'.txt','-100.mat') ];
+     if fexist(fullname)
+        music = load(fullname);
+        bpm = music.bpm;
+     else
+         disp(['file: ',ofname,'not exist - skipping']);
+         continue;
+     end
+     segmentCut = length(chordtable) - length(newResult);
+     disp(['Cut ',num2str(segmentCut),' segments in ',resultsDir,'/',list(i).name ,'  , bpm=',num2str(bpm)]);
+   
+     %% map chord to section
+     
+     
+     
+     %% save new chord
+     
+     writeChordtxt(newResult,[targetDir,'/',list(i).name]);
      
  end
  

@@ -1,0 +1,24 @@
+%  system('results/filename.bat')
+
+ cut_duration = 0.3;
+ musicDir = 'scratch/testpool';
+ resultsDir = 'results';
+ targetDir = 'newResults';
+ mkdir(targetDir);
+ list=dir('results/*.txt');
+ for i = 1:length(list)
+     filename=list(i).name;
+     chordtable = readChordtxt([resultsDir,'/',filename]);
+     newResult = cut_short_chord(chordtable, cut_duration);
+     fullname
+     
+     music = load([musicDir , '/' ,strrep(filename ,'.txt','-100.mat') ]);
+     bpm = music.bpm;
+     
+     
+     segmentCut = length(chordtable) - length(newResult);
+     disp(['Cut ',num2str(segmentCut),' segments in ',resultsDir,'/',list(i).name ,'    bpm=',num2str(bpm)]);
+     writeChordtxt(newResult,[targetDir,'/',list(i).name]);
+     
+ end
+ 

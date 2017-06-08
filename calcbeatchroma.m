@@ -190,8 +190,9 @@ for songn = 1:nfiles
 
         % Write the data out
         key = -1;  % not estimated, but put the slot in
-        save(ofname,'ifname','F','bts','tmean','tsd','fctr','fsd','vsn','desc','semisoff','key');
-
+        bpm=60/median(diff(bts));
+        save(ofname,'ifname','F','bts','tmean','tsd','fctr','fsd','vsn','desc','semisoff','key','bpm');
+        
         disp([datestr(rem(now,1),'HH:MM:SS'), ' song ',num2str(songn),' ', ...
               tline,' semisoff=',num2str(semisoff),' bpm=', sprintf('%.0f ',60/median(diff(bts))), ...
               ' fctr=',num2str(fctr)]);
