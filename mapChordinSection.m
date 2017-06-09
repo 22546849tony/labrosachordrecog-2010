@@ -24,12 +24,14 @@ section_duration = beat_duration * bps;
 sections={};
 cur_section=1;
 cur_chord_num=1;
-disp(['beat_duration=',num2str(beat_duration),'   section_duration=',num2str(section_duration)]);
 line=1;
 while line<len
    
    chord_duration = section_duration/cps;
    for cur_chord_num=1:cps
+       if line>len
+           break
+       end
        chord_in_section={};
        sec_start_time = section_duration * (cur_section-1) + (cur_chord_num-1)*chord_duration ;
        sec_end_time = section_duration * (cur_section-1) + (cur_chord_num)*chord_duration ;
@@ -52,7 +54,7 @@ while line<len
            end
        end
        chord=mostchords(chord_in_section);
-       disp(['start_time:',num2str(sec_start_time),'  end_time:',num2str(sec_end_time),' ,chord:',chord]);
+       %disp(['start_time:',num2str(sec_start_time),'  end_time:',num2str(sec_end_time),' ,chord:',chord]);
        divide=4/cps;
        for i=1:divide
            sections{cur_section,(cur_chord_num-1)*divide+i}=chord;
@@ -61,5 +63,9 @@ while line<len
 
    cur_section=cur_section+1;
 end
+[section_num,~]=size(sections);
+disp(['map chord to section: bpm=',num2str(bpm),' ,bps=',num2str(bps),' ,cps=',num2str(cps)...
+    ,' ,beat duration=',num2str(beat_duration),' ,number of sections:',num2str(section_num) ]);
+disp(sections);
 
 end

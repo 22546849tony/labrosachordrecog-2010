@@ -16,4 +16,7 @@ while(line<len)
     [len,~]=size(result);
 end
 
+segmentCut = length(chord_table) - length(result);
+disp(['Cut ',num2str(segmentCut),' chords']);
+
 end
